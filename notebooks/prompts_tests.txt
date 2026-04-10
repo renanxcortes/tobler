@@ -1,0 +1,1 @@
+I have two geopandas dataframe: - First one is the source dataframe with larger polygons (named source_df) - Second one (named raster_mask) has a categorical column names "values" Using geopandas, how to perform a spatial interpolation of these two polygons in order to count how many values categories of raster_mask fall within each polygon of source_df?
